@@ -1,0 +1,12 @@
+---
+- hosts: all
+
+  vars:
+    pip_version: 9.0.*
+
+  roles:
+    - { role: "azavea.pip" }
+
+  tasks:
+    - name: Install docker-compose
+      pip: name=docker-compose

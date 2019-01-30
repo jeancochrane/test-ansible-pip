@@ -1,0 +1,4 @@
+[submodule "roles/azavea.pip"]
+	path = roles/azavea.pip
+	url = git@github.com:azavea/ansible-pip.git
+	branch = feature/jfc/better-version-filtering
